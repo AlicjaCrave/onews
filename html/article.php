@@ -10,9 +10,9 @@ require '../bdd.php';
             <article class="post single-post">
                 <div class="badge badge-news">news</div>
                   <div class="data">
-                        <img class="data-icon" src="../images/icon-john.png" alt="John Marchill">
+                        <img class="data-icon" src="<?= $data['image']; ?>" alt="John Marchill">
                         <strong class="data-author"><?= $data['author']; ?></strong>
-                        <span class="data-date">le 21 Julliet 2019</span>
+                        <span class="data-date"><?= $data['publication']; ?></span>
                     </div>
                     <p><?= $data['text']; ?></p>
                     <a href="index.php">Back home</a>

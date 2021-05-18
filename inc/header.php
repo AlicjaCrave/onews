@@ -20,9 +20,19 @@
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In corrupti cumque accusantium ipsam dolore repellendus praesentium doloremque repudiandae, necessitatibus harum?</p>
             </section>
             <nav class="hello-menu">
-                <a href="#">Plan du site</a>
-                <a href="#">Mentions legales</a>
-                <a href="#">Contact</a>
+
+            <?php
+              $pages = [
+                'Plan du site' => '../html/plan_de_site.php',
+                'Contact' => '../html/contact.php',
+                'Mentions legales' => '../html/mentions_legales.php'
+                ];
+
+                foreach($pages as $key => $page):
+                ?>
+                <a href="<?= $page ?>"><?= $key ?></a>
+                <?php endforeach;?>
+                
             </nav>
         </div>
         </header>
