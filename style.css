@@ -1,0 +1,13 @@
+:root {
+    --fond-header: #f9f9f9;
+    --bordure-article: #eaeaea;
+    --WORK: #0766F0;
+    --TEAM: #DC5E53;
+    --NEWS: #98DC62;
+
+    --font-family: "Poppins", sans-serif;
+
+    --font-size: 1rem ;
+    --bigger-font-size: 2rem ;
+    --huge-font-size: 4rem;
+}
