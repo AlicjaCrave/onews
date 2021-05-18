@@ -178,3 +178,9 @@ header {
 .badge-work {
     background-color: var(--WORK);
 }
+
+@media (max-width: 1350px) {
+    .post {
+        flex-basis: 100%;
+    }
+}

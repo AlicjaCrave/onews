@@ -16,7 +16,8 @@ require '../inc/header.php';
             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eligendi, alias voluptatum ullam debitis quos
             voluptates placeat aspernatur deleniti pariatur corporis consectetur commodi omnis velit ab perspiciatis hic
             natus, qui itaque.</p>
-            <a href="article.php">Continue reading</a>
+            <a href="../articles/article.php">Continue reading</a>
+           
     </article>
 
     <article class="post">

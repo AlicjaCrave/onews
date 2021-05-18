@@ -1,3 +1,7 @@
+<?php
+require '../bdd.php';
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -22,17 +26,11 @@
             <nav class="hello-menu">
 
             <?php
-              $pages = [
-                'Plan du site' => '../html/plan_de_site.php',
-                'Contact' => '../html/contact.php',
-                'Mentions legales' => '../html/mentions_legales.php'
-                ];
-
                 foreach($pages as $key => $page):
                 ?>
                 <a href="<?= $page ?>"><?= $key ?></a>
                 <?php endforeach;?>
-                
+
             </nav>
         </div>
         </header>

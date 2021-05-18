@@ -1,6 +1,5 @@
 <?php
 require '../inc/header.php';
-require '../bdd.php';
 ?>
 
         <div class="content">
@@ -15,7 +14,7 @@ require '../bdd.php';
                         <span class="data-date"><?= $data['publication']; ?></span>
                     </div>
                     <p><?= $data['text']; ?></p>
-                    <a href="index.php">Back home</a>
+                    <a href="../html/index.php">Back home</a>
             </article>
         </div>
     </div>
