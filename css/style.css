@@ -20,6 +20,10 @@
     --huge-size: 4rem;
 }
 
+img {
+    width: 100%;
+}
+
 body {
     font-family: var(--font-family);
 }
@@ -206,6 +210,8 @@ header {
     }
 
     .hello-menu {
+        margin-right: var(--huge-size);
+
         justify-content: space-around;
     }
 
