@@ -8,7 +8,11 @@
     --NEWS: #98DC62;
 
     --font-family: "Poppins", sans-serif;
+    --font-color: rgb(44, 44, 44);
 
+    --very-tiny-size: 0.05rem;
+    --tiny-size: 0.5rem;
+    --smaller-size: 0.75rem;
     --small-size: 1rem;
     --medium-size: 1.5rem;
     --bigger-size: 2rem;
@@ -16,8 +20,11 @@
 }
 
 body {
-    color: var(--fond-header);
     font-family: var(--font-family);
+}
+
+header {
+    color: var(--fond-header);
 }
 
 .container {
@@ -31,7 +38,7 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     justify-content: space-between;
-    background-position: center center;
+    background-position: center;
     height: 100vh;
     position: fixed;
     width: 50%;
@@ -66,13 +73,96 @@ body {
     background-color: var(--see-through);
     text-align: right;
     line-height: var(--medium-size);
+    padding: var(--small-size);
+    margin: var(--small-size);
 }
 
 .hello-news h2 {
     font-size: var(--medium-size);
+    padding-right: var(--small-size);
+    padding-right: var(--small-size);
 }
 
 .hello-news span {
     font-size: var(--small-size);
     font-style: italic;
+}
+
+.content {
+    margin-left: 50%;
+    flex-basis: 50%;
+}
+
+.content h1 {
+    background-color: var(--fond-header);
+    padding: var(--medium-size);
+    background-color: var(--fond-header);
+    font-size: var(--bigger-size);
+    font-weight: bold;
+}
+
+.articles {
+    color: var(--font-color);
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.post-title {
+    padding-top: var(--small-size);
+    font-size: var(--medium-size);
+}
+
+.data {
+    font-size: var(--smaller-size);
+}
+
+.data-author {
+    font-weight: bold;
+}
+
+.data-icon {
+    width: var(--medium-size);
+    padding-top: var(--medium-size);
+}
+
+.post {
+    width: 45%;
+    border-top: var(--bordure-article) 1px solid;
+    border-right: var(--bordure-article) 1px solid;
+    padding: var(--small-size);
+}
+
+.post p {
+    line-height: var(--medium-size);
+    padding-bottom: var(--small-size);
+    padding-top: var(--small-size);
+}
+
+.post a {
+    text-decoration: none;
+    color: var(--WORK);
+}
+
+.badge {
+    background-color: grey;
+    text-transform: uppercase;
+    color: var(--fond-header);
+    border-radius: 2px;
+    display: inline;
+    font-weight: bold;
+    padding: var(--very-tiny-size) var(--tiny-size);
+    line-height: var(--bigger-size);
+
+}
+
+.badge-news {
+    background-color: var(--NEWS);
+}
+
+.badge-team {
+    background-color: var(--TEAM);
+}
+
+.badge-work {
+    background-color: var(--WORK);
 }
