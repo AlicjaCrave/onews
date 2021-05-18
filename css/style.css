@@ -1,6 +1,7 @@
 :root {
     --fond-header: #f9f9f9;
     --bordure-article: #eaeaea;
+    --accent-color: black;
     --see-through: rgba(81, 81, 82, 0.5);
 
     --WORK: #0766F0;
@@ -34,7 +35,7 @@ header {
 .hello {
     display: flex;
     flex-direction: column;
-    background-image: url('images/nicole.jpg');
+    background-image: url('../images/nicole.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     justify-content: space-between;
@@ -47,7 +48,7 @@ header {
 
 .hello-title {
     color: var(--fond-header);
-    background-image: url('images/onews.svg');
+    background-image: url('../images/onews.svg');
     background-repeat: no-repeat;
     text-transform: uppercase;
     font-size: var(--medium-size);
@@ -60,13 +61,15 @@ header {
 .hello-menu {
     display: flex;
     justify-content: flex-end;
+    padding: var(--huge-size);
 }
 
 .hello-menu a {
     color: var(--photo-contrast);
     text-decoration: none;
     margin-left: var(--huge-size);
-    font-weight: var(--huge-size);
+    font-weight: bold;
+    text-shadow: var(--accent-color) 2px 2px;
 }
 
 .hello-news {
@@ -116,6 +119,10 @@ header {
     font-size: var(--smaller-size);
 }
 
+.data-single {
+    padding: var(--huge-size);
+}
+
 .data-author {
     font-weight: bold;
 }
@@ -132,6 +139,10 @@ header {
     padding: var(--small-size);
 }
 
+.single-post {
+    width: 100%;
+}
+
 .post p {
     line-height: var(--medium-size);
     padding-bottom: var(--small-size);
@@ -142,6 +153,7 @@ header {
     text-decoration: none;
     color: var(--WORK);
 }
+
 
 .badge {
     background-color: grey;
