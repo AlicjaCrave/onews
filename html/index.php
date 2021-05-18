@@ -4,8 +4,9 @@ require '../inc/header.php';
 
 <div class="content">
     <h1>Latest news</h1>
+
 <div class="articles">
-    <article class="post">
+    <article class="post post-mobile">
         <div class="badge badge-news">news</div>
         <div class="post-title">Lorem ipsum dolor sit amet.</div>
             <div class="data">
@@ -16,10 +17,11 @@ require '../inc/header.php';
             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eligendi, alias voluptatum ullam debitis quos
             voluptates placeat aspernatur deleniti pariatur corporis consectetur commodi omnis velit ab perspiciatis hic
             natus, qui itaque.</p>
-            <a href="article.php">Continue reading</a>
+            <a href="../articles/article.php">Continue reading</a>
+           
     </article>
 
-    <article class="post">
+    <article class="post ">
         <div class="badge badge-team">team</div>
         <div class="post-title">Lorem ipsum dolor sit amet.</div>
             <div class="data">
@@ -90,9 +92,9 @@ require '../inc/header.php';
     </article>
 
 
-        </div>
+        </div> 
     </div>
-    </div>
+    
 
     <?php
 require '../inc/footer.php';

@@ -178,3 +178,36 @@ header {
 .badge-work {
     background-color: var(--WORK);
 }
+
+@media (max-width: 1350px) {
+    .post {
+        flex-basis: 100%;
+    }
+}
+
+@media (max-width: 700px) {
+    .container {
+        flex-direction: column;
+    }
+
+    .hello {
+        width: 100%;
+        position: relative;
+    }
+
+    .content {
+        width: 100%;
+        margin-left: 0;
+        flex-basis: 100%;
+    }
+
+    .post {
+        flex-wrap: nowrap;
+    }
+
+    .hello-menu {
+        justify-content: space-around;
+    }
+
+
+}

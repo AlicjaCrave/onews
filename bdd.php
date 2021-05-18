@@ -8,3 +8,9 @@ $data = [
     'image' => '../images/icon-john.png'
 ];
 
+ $pages = [
+    'Plan du site' => '../html/plan_de_site.php',
+    'Contact' => '../html/contact.php',
+    'Mentions legales' => '../html/mentions_legales.php'
+];
+
