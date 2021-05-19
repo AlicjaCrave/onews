@@ -10,7 +10,7 @@ $data = [
     'image' => '../images/icon-john.png'
 ];
     require '../inc/article-template.php';
-    require '../inc/footer.php';
+ 
 ?>
 
 

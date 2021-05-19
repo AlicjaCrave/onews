@@ -1,7 +1,9 @@
 <?php
 require '../inc/header.php';
-
 ?>
+
+
+
 
 <div class="content">
     <h1>Latest news</h1>
@@ -9,10 +11,6 @@ require '../inc/header.php';
 <div class="articles">
     <article class="post post-mobile">
         <div class="badge badge-news">news</div>
-
-
-
-
 
         <div class="post-title">Lorem ipsum dolor sit amet.</div>
             <div class="data">
@@ -100,7 +98,6 @@ require '../inc/header.php';
 
         </div> 
     </div>
-    
 
     <?php
 require '../inc/footer.php';

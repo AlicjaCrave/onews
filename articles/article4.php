@@ -13,5 +13,4 @@ $data = [
 
 <?php
 require '../inc/article-template.php';
-require '../inc/footer.php';
 ?>
