@@ -1,5 +1,5 @@
-<?php
-require '../bdd.php';
+<?php 
+require '../bdd.php' 
 ?>
 
 <!DOCTYPE html>
@@ -26,10 +26,16 @@ require '../bdd.php';
             <nav class="hello-menu">
 
             <?php
-                foreach($pages as $key => $page):
-                ?>
-                <a href="<?= $page ?>"><?= $key ?></a>
-                <?php endforeach;?>
+             $pages = [
+            'Plan du site' => '../html/plan_de_site.php',
+            'Contact' => '../html/contact.php',
+            'Mentions legales' => '../html/mentions_legales.php'
+             ];
+             
+            foreach($pages as $key => $page):
+            ?>
+            <a href="<?= $page ?>"><?= $key ?></a>
+            <?php endforeach;?>
 
             </nav>
         </div>

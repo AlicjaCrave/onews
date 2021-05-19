@@ -211,7 +211,6 @@ header {
 
     .hello-menu {
         margin-right: var(--huge-size);
-
         justify-content: space-around;
     }
 

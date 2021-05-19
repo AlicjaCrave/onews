@@ -1,5 +1,6 @@
 <?php
 require '../inc/header.php';
+
 ?>
 
 <div class="content">
@@ -8,6 +9,11 @@ require '../inc/header.php';
 <div class="articles">
     <article class="post post-mobile">
         <div class="badge badge-news">news</div>
+
+
+
+
+
         <div class="post-title">Lorem ipsum dolor sit amet.</div>
             <div class="data">
                 <img class="data-icon" src="../images/icon-john.png" alt="John Marchill">
@@ -32,7 +38,7 @@ require '../inc/header.php';
             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eligendi, alias voluptatum ullam debitis quos
             voluptates placeat aspernatur deleniti pariatur corporis consectetur commodi omnis velit ab perspiciatis hic
             natus, qui itaque.</p>
-            <a href="#">Continue reading</a>
+            <a href="../articles/article2.php">Continue reading</a>
     </article>
 
     <article class="post">
@@ -46,7 +52,7 @@ require '../inc/header.php';
             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eligendi, alias voluptatum ullam debitis quos
             voluptates placeat aspernatur deleniti pariatur corporis consectetur commodi omnis velit ab perspiciatis hic
             natus, qui itaque.</p>
-            <a href="#">Continue reading</a>
+            <a href="../articles/article3.php">Continue reading</a>
     </article>
 
     <article class="post">
@@ -60,7 +66,7 @@ require '../inc/header.php';
             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eligendi, alias voluptatum ullam debitis quos
             voluptates placeat aspernatur deleniti pariatur corporis consectetur commodi omnis velit ab perspiciatis hic
             natus, qui itaque.</p>
-            <a href="#">Continue reading</a>
+            <a href="../articles/article4.php">Continue reading</a>
     </article>
 
     <article class="post">
@@ -74,7 +80,7 @@ require '../inc/header.php';
             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eligendi, alias voluptatum ullam debitis quos
             voluptates placeat aspernatur deleniti pariatur corporis consectetur commodi omnis velit ab perspiciatis hic
             natus, qui itaque.</p>
-            <a href="#">Continue reading</a>
+            <a href="../articles/article5.php#">Continue reading</a>
     </article>
 
     <article class="post">
@@ -88,7 +94,7 @@ require '../inc/header.php';
             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eligendi, alias voluptatum ullam debitis quos
             voluptates placeat aspernatur deleniti pariatur corporis consectetur commodi omnis velit ab perspiciatis hic
             natus, qui itaque.</p>
-            <a href="#">Continue reading</a>
+            <a href="../articles/article6.php">Continue reading</a>
     </article>
 
 
